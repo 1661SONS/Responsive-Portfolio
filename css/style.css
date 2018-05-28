@@ -1,0 +1,277 @@
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777;
+    background-image: url(../Images/topography.png);
+    position: relative;
+    margin: 0;
+    padding-bottom: 10rem;
+    background-color: #666;
+}
+h1, h2, h3, h4 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: 700;
+}
+h1 {
+    font-size: 28px;
+    color: #4aaaa5;
+}
+
+/* navigation */
+nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+nav span h1 {
+    color: white;
+    background-color: #4aaaa5;
+    width: 275px;
+    height: 75px;
+    text-align: center;
+    position: relative;
+    left: 143px;
+    vertical-align: middle;
+    line-height: 70px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 123px;
+    top: 30px;
+}
+nav li {
+    float: left;
+}
+.borderRight {
+    border-right: 1px solid #ccc;
+}
+nav li a {
+    display: block;
+    color: #777;
+    text-decoration: none;
+    padding: 0 18px 0 18px;
+}
+nav li a:hover {
+    color: #4aaaa5;
+}
+.currentLink {
+    font-weight: 550;
+}
+
+/* main cotent card */
+.contentCard {
+    max-width: 915px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    margin-top: 40px;
+    overflow: auto;
+}
+.contentCardImage {
+    height: 450px;
+    width: 450px;
+    background-image: url(../Images/no-justice.jpg);
+    background-position: center;
+    background-size: cover;
+    float: left;
+    margin: 10px 20px 10px 0;
+    transform: rotate(90deg);
+}
+.contentCard p {
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/* portfolio // authors grid */
+.baldwin {
+    height: 250px;
+    background-image: url(http://www.latimes.com/resizer/5a-0hkyNQAlyWnTgLt6kddt74ag=/1400x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/4FAXOJ3LPVDOREH4IOJIGKNDQE.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 33.3333%;
+    float: left;
+    margin: 10px 20px 10px 0;
+    overflow: hidden;
+}
+.coates {
+    height: 250px;
+    background-image: url(http://today.cofc.edu/wp-content/uploads/2016/10/Coates_2015-750x499.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.3333%;
+    float: left;
+    margin: 10px 20px 10px 0;
+    overflow: hidden;
+}
+.klein {
+    height: 250px;
+    background-image: url(https://cdn-03.belfasttelegraph.co.uk/life/features/article31112210.ece/77fa4/AUTOCROP/w620/2015-04-02_lif_8293969_I1.JPG);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 33.3333%;
+    float: left;
+    margin: 10px 20px 10px 0;
+    overflow: hidden;
+}
+.kerouac {
+    height: 250px;
+    background-image: url(https://media.gq.com/photos/558358003655c24c6c963b25/master/w_800/style-blogs-the-gq-eye-jack%20kerouac.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 33.3333%;
+    float: left;
+    margin: 10px 20px 10px 0;
+    overflow: hidden;
+}
+.scahill {
+    height: 250px;
+    background-image: url(http://www3.pictures.zimbio.com/gi/Jeremy+Scahill+86th+Academy+Awards+Nominee+ebjegQnzrmjl.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 33.3333%;
+    float: left;
+    margin: 10px 20px 10px 0;
+    overflow: hidden;
+}
+
+/* teal author names */
+.imageTitle {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 200px;
+    padding: 10px 0 10px 0;
+}
+
+/* contact form */
+input, textarea {
+    width: 895px;
+    padding: 10px 0px 10px 0;
+    margin: 15px 0 20px 0;
+    border: 1px solid #ccc;
+    font: 1em sans-serif;
+}
+input {
+    padding-left: 1em;
+}
+textarea {
+    height: 125px;
+    vertical-align: top;
+    padding-left: 1em;
+}
+input::placeholder, textarea::placeholder {
+    color: #ccc;
+}
+button {
+    padding: 10px 30px 10px 30px;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+button:hover {
+    background-color: teal;
+    text-decoration: underline;
+}
+
+/* footer */
+footer {
+    background-color: #666;
+    border-top: 10px solid #4aaaa5;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 25px 0 25px 0;
+    color: #ddd;
+}
+
+/* media queries */
+
+/* small desktop, breakpoint 980px */
+@media only screen and (max-width: 980px){
+    .contentCard {
+        max-width: 640px;
+        margin-left: 30px;
+    }
+    input, textarea {
+        width: 620px;
+    }
+    nav span h1 {
+        left: 30px;
+    }
+    nav ul {
+        right: 30px;
+    }
+    .contentCardImage {
+        height: 300px;
+        width: 300px;
+    }
+    .baldwin, .coates, .klein, .kerouac, .scahill {
+        height: 300px;
+        width: 300px;
+    }
+    .imageTitle {
+        padding: 20px;
+        top: 225px;
+    }
+}
+
+/* breakpoint 640px */
+@media only screen and (max-width: 640px) {
+    .contentCard {
+        max-width: 520px;
+        margin-left: 20px;
+        margin-top: 100px;
+    }
+    .contentCardImage {
+        width: 520px;
+        height: 520px;
+    }
+    nav span h1 {
+        width: 100%;
+        left: 0;
+    }
+    nav ul {
+        display: inline-block;
+        width: 425px;
+        left: 0;
+        right: 0;
+        background-color: white;
+        top: 75px;
+        padding: 25px 165px 25px 165px;
+        border-bottom: 1px solid #ddd;
+    }
+    input, textarea {
+        width: 500px;
+    }
+    .baldwin, .coates, .klein, .kerouac, .scahill {
+        height: 500px;
+        width: 500px;
+    }
+    .imageTitle {
+        top: 425px;
+    }
+}
+ 
